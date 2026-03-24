@@ -1,0 +1,21 @@
+NextGen HR is an AI-powered virtual interviewer system.
+The system evaluates candidates using text, audio, and video inputs.
+Text analysis is performed using BERT and GPT models.
+Audio analysis is done using Wav2Vec2.0 and Whisper.
+Video analysis uses Vision Transformers to detect emotions and expressions.
+The system provides feedback on confidence, communication, and knowledge.
+It generates adaptive questions based on candidate responses.
+The system helps candidates practice mock interviews.
+The backend of the system is built using Flask.
+The frontend is developed using React.
+The system stores data using Supabase.
+The interviewer adapts dynamically based on previous answers.
+The system reduces human bias in interviews.
+The chatbot can assist users with interview preparation queries.
+Users can improve their performance using feedback reports.
+The system supports real-time interaction with users.
+The AI model evaluates both technical and behavioral skills.
+The system aims to simulate real-world interview scenarios.
+The chatbot can explain how the interview system works.
+The platform is designed for students and job seekers.
+The system provides detailed performance analytics.
