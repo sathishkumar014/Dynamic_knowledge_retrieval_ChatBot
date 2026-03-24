@@ -1,0 +1,11 @@
+# ========================================
+# Chatbot Project Requirements
+# ========================================
+
+# This project is a frontend-only chatbot
+# built using HTML, CSS, and JavaScript.
+
+# No external Python or backend dependencies required.
+
+# To run the project:
+# Open index.html in any web browser.
