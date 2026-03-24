@@ -1,41 +1,37 @@
-# 📄 Chatbot (Dynamic Knowledge Retrieval)
+# 📄 Dynamic Knowledge Retrieval ChatBot
 
 ## 🚀 Overview
-This project implements a retrieval-based AI chatbot that answers user queries using a predefined knowledge base.
+This project is a simple web-based chatbot designed to answer questions about the NextGenHR system.
 
-The system uses TF-IDF vectorization and cosine similarity to find the most relevant response from stored data, simulating a lightweight RAG (Retrieval-Augmented Generation) pipeline.
+The chatbot provides information about features, technologies, and working of the NextGenHR AI Interviewer project through a clean and interactive chat interface.
+
+It uses **demo knowledge data that represents the actual NextGenHR project**, allowing users to understand the system in an interactive way.
 
 ---
 
 ## 🎯 Features
 
-- Interactive chatbot UI (modern chat interface)
-- Real-time user input handling
-- Retrieval-based response generation
-- TF-IDF vectorization for text understanding
-- Cosine similarity for matching queries
-- Top-k response selection
-- Confidence score for explainability
-- Context-aware responses (basic memory)
-- Handles unknown queries gracefully
+- Simple and interactive chatbot UI
+- Built using HTML, CSS, and JavaScript
+- Real-time user interaction
+- Predefined responses based on NextGenHR project
+- Uses demo knowledge representing real project concepts
+- Clean chat interface with message bubbles
+- Easy to use and lightweight
 
 ---
 
 ## 🧠 System Architecture
 
-User Input (Browser UI)  
+User (Browser)  
         ↓  
-Flask Backend API  
+HTML Chat Interface  
         ↓  
-Query Processing  
+JavaScript Logic  
         ↓  
-TF-IDF Vectorization  
+Demo Knowledge Base (NextGenHR Data)  
         ↓  
-Cosine Similarity Matching  
-        ↓  
-Top-K Relevant Responses  
-        ↓  
-Return Best Answer  
+Matching Response  
         ↓  
 Display in Chat UI  
 
@@ -43,11 +39,9 @@ Display in Chat UI
 
 ## 🛠️ Tech Stack
 
-- Backend: Flask (Python)
-- Frontend: HTML, CSS, JavaScript
-- NLP Processing: scikit-learn (TF-IDF)
-- Similarity: Cosine Similarity
-- Language: Python
+- HTML
+- CSS
+- JavaScript
 
 ---
 
